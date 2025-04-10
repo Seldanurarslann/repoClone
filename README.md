@@ -21,9 +21,10 @@ Bu Python scripti, Bitbucket repository'lerini Azure DevOps ile senkronize etmen
 
    ```bash
    pip install -r requirements.txt
-2. **requirements.txt dosyasını oluşturmak için:**
+  **`requirements.txt` dosyasını oluşturmak için:**
    ```bash
    requests
    gitpython
    python-dotenv
+2.  **`.env` Dosyasını Yapılandırma**
 
