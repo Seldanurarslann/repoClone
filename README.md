@@ -33,7 +33,7 @@ Bu Python scripti, Bitbucket repository'lerini Azure DevOps ile senkronize etmen
    
    Çalıştırılmadan önce `.env` dosyasının doğru şekilde yapılandırılması gerekmektedir. Bu dosyada aşağıdaki ortam değişkenlerini belirleyin:
 
-    ```bash
+  ```bash
     WORKING_DIR=./repos  # Yerel repo dizini
     BITBUCKET_WORKSPACE_ID=<BITBUCKET_WORKSPACE_ID>  # Bitbucket workspace ID
     BITBUCKET_USERNAME=<BITBUCKET_USERNAME>  # Bitbucket kullanıcı adı
@@ -48,9 +48,9 @@ Bu Python scripti, Bitbucket repository'lerini Azure DevOps ile senkronize etmen
 
    Bu scripti çalıştırmak için terminalde şu komutu kullanabilirsiniz:
 
-    ```bash
+ ```bash
     python main.py
-    ```
+ ```
 
    Script, Bitbucket'taki repository'leri Azure DevOps'a senkronize etmeye başlayacaktır. Tüm işlem süresi konsola yazdırılır.
 
